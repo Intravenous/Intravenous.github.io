@@ -1,0 +1,159 @@
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// .icon-container {
+//   text-align: center;
+// }
+body {
+  font-family: 'Roboto', sans-serif
+}
+
+#hero-header { 
+  background-image: url('https://i.imgur.com/AxtuUIR.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+// titles in Hero Header
+#gname {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 4px 5px 2px black;
+  padding-left: 25px;
+  font-size: 60px;
+}
+
+#gsub {
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 4px 5px 2px black;
+  padding-left: 25px;
+  font-size: 25px;
+}
+
+// Section Titles
+.section-head {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 45px;
+}
+
+#headshot {
+  height: 400px;
+  width: 380px;
+  // border: 10px solid black;
+}
+
+// Section customization
+#skills {
+  padding-bottom: 50px;
+}
+
+#skills-section {
+  background-color: #2B1C15;
+}
+
+#about {
+  padding-bottom: 50px;
+  color: black;
+}
+
+#about-section {
+  background-color: #EFEFEF;
+}
+
+#projects {
+  padding-bottom: 40px;
+}
+
+#projects-section {
+  background-color: #99765E;
+}
+
+#projects-section a {
+  color: #99765E;
+  text-decoration: underline;
+}
+
+#projects-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+#experience {
+  padding-bottom: 40px;
+}
+
+#experience-section {
+  background-color: #E6CAA3;
+}
+
+span {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.experience-subtitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  text-decoration: underline #99765E;
+}
+
+.company-name {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+#contacts-section {
+  background-color: #2B1C15;
+  color: white;
+}
+
+#contacts-section a {
+  color: white;
+}
+
+// Overlay
+.over {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .55s ease;
+  background-color: #b9bcab;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.over:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+  // margin-top: 5px;
+}

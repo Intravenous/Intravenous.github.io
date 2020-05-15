@@ -10,7 +10,7 @@ const Home = () => {
 
       <section id="hero-header" className="hero is-info is-fullheight">
         {/* <!-- Added is-fullheight to make it take up the whole page-->
-<!-- Hero head: will stick at the top --> */}
+        <!-- Hero head: will stick at the top --> */}
         <div className="hero-head">
           {/* <nav className="navbar">
 
@@ -51,7 +51,6 @@ const Home = () => {
       </section>
 
       {/* About me Section */}
-      {/* Two columns - Left Picture & Right Words*/}
 
       <section className="about hero is-fullheight">
         <div className="level-item has-text-centered">
@@ -77,7 +76,7 @@ const Home = () => {
 
                     In a previous life I was a Senior Business Analyst with twenty years’ experience in the Investment Banking sector, primarily in Reference Data Management. Although it was a career I enjoyed, I concluded towards the end of 2019, that I both wanted and needed to try something different. Ultimately, that desire led me to take the course at GA and leaves me excited to embark on a new career path. <br /><br />
 
-                    Outside of work, I’m a keen runner, which I find is a godsend for both physical and mental wellbeing. I&apos;ve always had a passion for music, in all it&apos;s forms. Whether that be DJing, gigging, listening to it or heading off to Glastonbury. Last, but certainly not least, I&apos;m a real travel lover. Experiencing new cultures, as well as beautiful locations, is something that I continue to find fascinating and For me, travelling is a fast track to knowledge, without actually having to study.
+                    Outside of work, I’m a keen runner, which I find is a godsend for both physical and mental wellbeing. I&apos;ve always had a passion for music, in all it&apos;s forms. Whether that be DJing, gigging, listening to it or heading off to Glastonbury. Last, but certainly not least, I&apos;m a real travel lover. Experiencing new cultures, as well as beautiful locations, is something that I continue to find fascinating. For me, travelling is a fast track to knowledge, without actually having to study.
 
                     </p>
                   </div>
@@ -303,16 +302,16 @@ const Home = () => {
             <div className="tile is-ancestor">
               <div className="tile is-parent is-3 over">
                 <article className="tile is-child box">
+                  <h4>The Crate</h4>
+                  <p>Personal Side Project</p>
                   <figure>
                     <img src="https://i.imgur.com/b291JuG.jpg" />
                   </figure>
-                  <h4>The Crate</h4>
-                  <p>Personal Side Project</p>
                 </article>
                 {/* Added Below for overlay*/}
                 <div className="overlay">
                   <div className="text">
-                    <strong>COMING SOON</strong>
+                    <p>COMING SOON</p>
                   </div>
                 </div>
                 {/* Added for overlay */}

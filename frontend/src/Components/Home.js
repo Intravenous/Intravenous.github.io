@@ -11,7 +11,7 @@ const Home = () => {
       <section id="hero-header" className="hero is-info is-fullheight">
         {/* <!-- Added is-fullheight to make it take up the whole page-->
         <!-- Hero head: will stick at the top --> */}
-        <div className="hero-head">
+        <div id="home" className="hero-head">
           {/* <nav className="navbar">
 
           </nav> */}
@@ -28,8 +28,6 @@ const Home = () => {
             </h2>
           </div>
 
-
-
         </div>
 
         {/* <!-- Hero footer: will stick at the bottom --> */}
@@ -37,7 +35,7 @@ const Home = () => {
           <nav className="tabs">
             <div className="container">
               <ul>
-                <li className="is-active"><a>Home</a></li>
+                <li className="is-active"><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>

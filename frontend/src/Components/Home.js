@@ -9,15 +9,9 @@ const Home = () => {
     <main>
 
       <section id="hero-header" className="hero is-info is-fullheight">
-        {/* <!-- Added is-fullheight to make it take up the whole page-->
-        <!-- Hero head: will stick at the top --> */}
         <div id="home" className="hero-head">
-          {/* <nav className="navbar">
-
-          </nav> */}
         </div>
 
-        {/* <!-- Hero content: will be in the middle --> */}
         <div className="hero-body">
           <div className="container">
             <h1 id="gname" className="title">
@@ -29,8 +23,7 @@ const Home = () => {
           </div>
 
         </div>
-
-        {/* <!-- Hero footer: will stick at the bottom --> */}
+  
         <div className="hero-foot">
           <nav className="tabs">
             <div className="container">
@@ -41,7 +34,6 @@ const Home = () => {
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
-                {/* <li><a>TestBed</a></li> */}
               </ul>
             </div>
           </nav>
@@ -62,9 +54,7 @@ const Home = () => {
             </h1>
             <div className="columns has-text-centered is-vcentered">
               <div className="column">
-                {/* First column - Picture */}
                 <img id="headshot" src="https://www.dropbox.com/s/cbz0kgl2a9s1uo2/Gordon-circle.png?raw=1" alt="Gordon's Profile" />
-
               </div>
               <div className="column">
 
@@ -75,7 +65,6 @@ const Home = () => {
                     In a previous life I was a Senior Business Analyst with twenty years’ experience in the Investment Banking sector, primarily in Reference Data Management. Although it was a career I enjoyed, I concluded towards the end of 2019, that I both wanted and needed to try something different. Ultimately, that desire led me to take the course at GA and leaves me excited to embark on a new career path. <br /><br />
 
                     Outside of work, I’m a keen runner, which I find is a godsend for both physical and mental wellbeing. I&apos;ve always had a passion for music, in all it&apos;s forms. Whether that be DJing, gigging, listening to it or heading off to Glastonbury. Last, but certainly not least, I&apos;m a real travel lover. Experiencing new cultures, as well as beautiful locations, is something that I continue to find fascinating. For me, travelling is a fast track to knowledge, without actually having to study.
-
                     </p>
                   </div>
                 </div>
@@ -199,7 +188,7 @@ const Home = () => {
       <section className="projects hero is-info is-fullheight">
         <div id="projects-section" className="hero-body">
           <div className="container has-text-centered">
-            <h1 id="projects" className="title has-text-centered section-head">
+            <h1 id="projects" className="title section-head">
               Projects
             </h1>
             <div className="tile is-ancestor">
@@ -211,20 +200,14 @@ const Home = () => {
                   <figure>
                     <img src="https://i.imgur.com/fqvfPaGh.png" />
                   </figure>
-                  {/* <Link target="_blank" rel="noopener noreferrer" to='/https://intravenous.github.io/project-1/'>Deployed Project</Link> */}
-                  {/* Beloow blanked out for overlay addition */}
-                  {/* <a target="_blank" rel="noopener noreferrer" href="/https://intravenous.github.io/project-1">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="/https://github.com/Intravenous/project-1">Repository</a> */}
-                  {/* <p className="title">One</p>
-                  <p className="subtitle">Subtitle</p> */}
                 </article>
                 {/* Added Below for overlay*/}
                 <div className="overlay">
                   <div className="text">
                     My First SEI Project. A one-week solo project to build a grid-based game, using vanilla JavaScript, HTML and CSS.<br /><br />
                     It was based on the classic arcade game snake and built entirely in Vanilla JavaScript.<br /><br />
-                    <a target="_blank" rel="noopener noreferrer" href="/https://intravenous.github.io/project-1">Deployed Project</a><br />
-                    <a target="_blank" rel="noopener noreferrer" href="/https://github.com/Intravenous/project-1">Repository</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://intravenous.github.io/project-1">Deployed Project</a><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-1">Repository</a>
                   </div>
                 </div>
                 {/* Added for overlay */}
@@ -237,15 +220,13 @@ const Home = () => {
                   <figure>
                     <img src="https://i.imgur.com/dRWtKn5h.jpg" />
                   </figure>
-                  {/* <a target="_blank" rel="noopener noreferrer" href="https://intravenous.github.io/project-2">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/Project-2">Repository</a> */}
                 </article>
                 {/* Added Below for overlay*/}
                 <div className="overlay">
                   <div className="text">
                     A multi-page React application that consumed and used the Deezer music API, also utilised Bulma and CSS.<br /><br />
                     The application takes a user’s birthdate and returns the number one single in the UK for each year, since they were born.<br /><br />
-                    <a target="_blank" rel="noopener noreferrer" href="https://intravenous.github.io/project-2">Deployed Project</a><br />
+                    <a target="_blank" rel="noopener noreferrer" href="https://intravenous.github.io/Project-2/">Deployed Project</a><br />
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/Project-2">Repository</a>
                   </div>
                 </div>
@@ -256,11 +237,11 @@ const Home = () => {
                 <article className="tile is-child box">
                   <h4>BookedUp</h4>
                   <p>SEI Project Three</p>
+
                   <figure>
                     <img src="https://i.imgur.com/dflUP27h.png" />
                   </figure>
-                  {/* <a target="_blank" rel="noopener noreferrer" href="https://booked-up.herokuapp.com/">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-3">Repository</a> */}
+
                 </article>
                 {/* Added Below for overlay*/}
                 <div className="overlay">
@@ -279,11 +260,11 @@ const Home = () => {
                 <article className="tile is-child box">
                   <h4>L.A.B.S</h4>
                   <p>SEI Project Four</p>
+
                   <figure>
                     <img src="https://i.imgur.com/Fs7PSSfh.png" />
                   </figure>
-                  {/* <a target="_blank" rel="noopener noreferrer" href="https://proj-labs.herokuapp.com/#/">Deployed Project</a><br />
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-4">Repository</a> */}
+
                 </article>
                 {/* Added Below for overlay*/}
                 <div className="overlay">
@@ -403,14 +384,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* 
-      <footer className="footer">
-        <div className="content has-text-centered">
-          <p>
-            Made with ♥ and &#123; &#125; by Gordon Gyakyi
-          </p>
-        </div>
-      </footer> */}
 
     </main>
   )

@@ -60,7 +60,7 @@ const Home = () => {
 
                 <div className="container">
                   <div className="notification">
-                    <p>Greetings! My name&apos;s Gordon! I&apos;m a junior full-stack developer and graduate of General Assembly&apos;s Software Engineering Immersive course. I enrolled on the course to scratch an itch and to supercharge a career change into software engineering. <br /><br />
+                    <p>Greetings! My name&apos;s Gordon! I&apos;m a Junior Full-Stack Developer and graduate of General Assembly&apos;s Software Engineering Immersive course. I enrolled on the course to scratch an itch and to supercharge a career change into software engineering. <br /><br />
 
                     In a previous life I was a Senior Business Analyst with twenty years’ experience in the Investment Banking sector, primarily in Reference Data Management. Although it was a career I enjoyed, I concluded towards the end of 2019, that I both wanted and needed to try something different. Ultimately, that desire led me to take the course at GA and leaves me excited to embark on a new career path. <br /><br />
 

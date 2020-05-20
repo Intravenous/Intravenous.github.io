@@ -250,7 +250,7 @@ const Home = () => {
                     <br /><br />
                     Our project created a personal library for the user, that enabled them to login, browse for books and save those books to their accounts.<br /><br />
                     <a target="_blank" rel="noopener noreferrer" href="https://booked-up.herokuapp.com/">Deployed Project</a><br />
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-3">Repository</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/BookedUp">Repository</a>
                   </div>
                 </div>
                 {/* Added for overlay */}
@@ -271,7 +271,7 @@ const Home = () => {
                   <div className="text">
                     A seven-day group project, to build a full-stack application using React and CSS for the front end and Django / PostgreSQL database for the back end. The application implemented CRUD functionality and was a prototype medical booking system.<br /><br />
                     <a target="_blank" rel="noopener noreferrer" href="https://proj-labs.herokuapp.com/#/">Deployed Project</a><br />
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/project-4">Repository</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Intravenous/LABS">Repository</a>
                   </div>
                 </div>
                 {/* Added for overlay */}

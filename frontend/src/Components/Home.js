@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 // import 'devicon'
-import LazyHero from 'react-lazy-hero'
+// import LazyHero from 'react-lazy-hero'
 
 const Home = () => {
   return (
@@ -318,7 +318,7 @@ const Home = () => {
                   <p className="title experience-subtitle">Education</p>
                   <p className="company-name">General Assembly</p>
                   <p><span>Software Engineering Immersive</span> • Feb - April 2020</p> <br />
-                  <p>When I enrolled in the course, my aim was to immersing myself in the subject with likeminded people and build on the independent online courses that I had undertaken. After completing the course, I’m glad to report that I feel that I achieved those aims. <br /> <br />
+                  <p>When I enrolled in the course, my aim was to immerse myself in the subject with likeminded people and build on the independent online courses that I had undertaken. After completing the course, I’m glad to report that I feel that I achieved those aims. <br /> <br />
 
                   Looking to the future, I’m really looking forward to continuing my learning journey. The opportunity to mix my new skills as a developer, with the skills I developed in my previous life as a Business Analyst really excites me. <br /> <br />
                   </p>
